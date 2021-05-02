@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Detective1.0a",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Any new leads? [[Answer:Player1.1a|Player1.1a]] [[Answer:Player1.2a|Player1.2a]] [[Answer:Player1.3a|Player1.3a]]",
+		"position": {
+			"x": -68,
+			"y": 3022
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.1a",
+		"tags": "Player",
+		"body": "No, sadly, nothing so far.",
+		"position": {
+			"x": -431,
+			"y": 3315
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.2a",
+		"tags": "Player",
+		"body": "<reqVar>hasBusinessCard 1</reqVar>This business card might have our killer's prints on it. [[Answer:Detective1.2b|Detective1.2b]]",
+		"position": {
+			"x": -41,
+			"y": 3305
+		},
+		"colorID": 2
+	},
+	{
+		"title": "Detective1.2b",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Great work, run that over to Frankenstein, double time.",
+		"position": {
+			"x": -33,
+			"y": 3553
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.3a",
+		"tags": "Player",
+		"body": "<reqVar>hasPicture 1</reqVar>I have a picture of suspect numero uno, literally covered in blood. [[Answer:Detective1.3b|Detective1.3b]]",
+		"position": {
+			"x": 284,
+			"y": 3273
+		},
+		"colorID": 2
+	},
+	{
+		"title": "Detective1.3b",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Let me see that? [[Answer:Player1.4c|Player1.4c]]",
+		"position": {
+			"x": 392,
+			"y": 3533
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.4c",
+		"tags": "Player",
+		"body": "*hands over picture* [[Answer:Detective1.4d|Detective1.4d]]",
+		"position": {
+			"x": 390,
+			"y": 3795
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective1.4d",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Wow, that's an incredible picture. So lifelike. That's slam dunk evidence.",
+		"position": {
+			"x": 404,
+			"y": 4085
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,233 @@
+[
+	{
+		"title": "Chief01",
+		"tags": "Chief",
+		"body": "What do you want. Can't a man drink in peace. [[Answer:Player69|Player01a]]Hi there [[Answer:Player02|Player02b]]",
+		"position": {
+			"x": 107,
+			"y": 631
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player01a",
+		"tags": "Player",
+		"body": "Sorry to bother you sir, I just had a few questions about the murder [[Answer:Node|Chief02b]]",
+		"position": {
+			"x": -427,
+			"y": 853
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player02b",
+		"tags": "Player",
+		"body": "Most people aren't the chief of police [[Answer:Chief02.b|Chief02.b]]",
+		"position": {
+			"x": 726,
+			"y": 845
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief02b",
+		"tags": "Chief",
+		"body": "What murder? *[i]burp[/i]* [[Answer:Node|Player03]]",
+		"position": {
+			"x": -428,
+			"y": 1123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief02.b",
+		"tags": "Chief",
+		"body": "I'm chief of police when I'm behind a desk. [[Answer:Chief02c|Chief02c]]",
+		"position": {
+			"x": 736,
+			"y": 1098
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief02c",
+		"tags": "Chief",
+		"body": "The only lessons you learn in this schoolhouse is how to feel sorry for yourself. [[Answer:Player02.1a|Player02.1a]]",
+		"position": {
+			"x": 732,
+			"y": 1352
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player03",
+		"tags": "Player",
+		"body": "The murder where the deer man was ripped open, roughly 40 feet that way. [[Answer:Chief03a|Chief03b]]",
+		"position": {
+			"x": -778,
+			"y": 1344
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief03b",
+		"tags": "Chief",
+		"body": "That? Pssh, that wasn't a murder [[Answer:Chief03c|Chief03c]]",
+		"position": {
+			"x": -776,
+			"y": 1595
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief03c",
+		"tags": "Chief",
+		"body": "That was a coyote attack. Nothing nefarious [[Answer:Player04|Player04]] [[Answer:Player05|Player05]]",
+		"position": {
+			"x": -786,
+			"y": 1861
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player04",
+		"tags": "Player",
+		"body": "Are you blind or just stupid? [[Answer:Wolfington04b|Wolfington04b]]",
+		"position": {
+			"x": -1074,
+			"y": 2107
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player05",
+		"tags": "Player",
+		"body": "Coyotes, well known for their brazen attacks in the middle of a city [[Answer:Chief05a|Chief05a]]",
+		"position": {
+			"x": -466,
+			"y": 2110
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief05a",
+		"tags": "Chief",
+		"body": "*[i]gulp[/i]* Y...yes coyotes. What else could it have been? [[Answer:Player07|Player07]] [[Answer:Player06|Player06]]",
+		"position": {
+			"x": -471,
+			"y": 2374
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player07",
+		"tags": "Player",
+		"body": "If your memory improves, call me",
+		"position": {
+			"x": -682,
+			"y": 2618
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player06",
+		"tags": "Player",
+		"body": "<reqVar>wolfSuspect 1</reqVar>Maybe something a little more... lupine?[[Answer:Wolfington06b|Wolfington06b]]",
+		"position": {
+			"x": -248,
+			"y": 2619
+		},
+		"colorID": 6
+	},
+	
+	{
+		"title": "Wolfington04b",
+		"tags": "Mr. wolfington",
+		"body": "Now, I'm sure our esteemed Chief of Police has good reasons for his conclusions. [[Answer:Wolfington04c|Wolfington04c]]",
+		"position": {
+			"x": -1627,
+			"y": 2334
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington04c",
+		"tags": "Mr. Wolfington",
+		"body": "Basil D. Wolfington, at your service. I run this little watering hole, along with most of the town. But who's counting [[Answer:Player08|Player08]] [[Answer:Player09|Player09]]",
+		"position": {
+			"x": -1621,
+			"y": 2589
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player08",
+		"tags": "Player",
+		"body": "Pleased to be your acquaintance. [[Answer:Wolfington10b|Wolfington10b]]",
+		"position": {
+			"x": -2128,
+			"y": 3199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player09",
+		"tags": "Player",
+		"body": "So it's you who's crushing the investigation. Interesting. [[Answer:Wolfington06b|Wolfington06b]]",
+		"position": {
+			"x": -1204,
+			"y": 3111
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington06b",
+		"tags": "Mr. Wolfington",
+		"body": "Surely you are not insinuating any member of my family had anything to do with this heinous act. [[Answer:Player10|Player10]]",
+		"position": {
+			"x": -240,
+			"y": 3208
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player10",
+		"tags": "Player",
+		"body": "I go where the evidence leads, Mr. Wolfington. [[Answer:Wolfington10b|Wolfington10b]]",
+		"position": {
+			"x": 82,
+			"y": 3442
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington10b",
+		"tags": "Mr. Wolfington",
+		"body": "Perhaps you and I should speak quietly about this case.",
+		"position": {
+			"x": 132,
+			"y": 3704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player02.1a",
+		"tags": "Player",
+		"body": "At least we aren't dead in an alley. [[Answer:Chief02.1b|Chief02.1b]]",
+		"position": {
+			"x": 723,
+			"y": 1632
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief02.1b",
+		"tags": "Chief",
+		"body": "Yes. Poor John. Awful business, what those coyotes did. [[Answer:Player05|Player05]]",
+		"position": {
+			"x": 328,
+			"y": 1862
+		},
+		"colorID": 0
+	}
+]

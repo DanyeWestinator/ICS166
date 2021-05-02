@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Doorman01",
+		"tags": "Merchant",
+		"body": "Stop. Can't come in [[Answer:Player01b|Player01]] [[Answer:Player02|Player02]]",
+		"position": {
+			"x": -77,
+			"y": 294
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player01",
+		"tags": "Player",
+		"body": "It's police business [[Answer:Chief01b|Chief01b]]",
+		"position": {
+			"x": -390,
+			"y": 559
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player02",
+		"tags": "Player",
+		"body": "This is a public space! You can't kick me out [[Answer:doorman02b|doorman02b]]",
+		"position": {
+			"x": 307,
+			"y": 566
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief01b",
+		"tags": "Chief",
+		"body": "Is that Jimmy Mulligan I hear? [[Answer:Chief01c|Chief01c]]",
+		"position": {
+			"x": -397,
+			"y": 838
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Chief01c",
+		"tags": "Chief",
+		"body": "<cngVar>spokenToDoorman 10</cngVar>C'mon Charlie, let 'im through'",
+		"position": {
+			"x": -384,
+			"y": 1125
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorman02b",
+		"tags": "Merchant",
+		"body": "I can and I will [[Answer:Chief01b|Chief01b]]",
+		"position": {
+			"x": 317,
+			"y": 849
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,232 @@
+[
+	{
+		"title": "WolfingtonDad1.1",
+		"tags": "Mr. Wolfington",
+		"body": "Thank you for agreeing to meet privately with me. [[Answer:Player1.2|Player1.2]] [[Answer:Player1.3a|Player1.3a]]",
+		"position": {
+			"x": -226,
+			"y": 1642
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.2",
+		"tags": "Player",
+		"body": "I'll always make time for an ol' crook like you. [[Answer:Wolfington2.1|Wolfington2.0]]",
+		"position": {
+			"x": -398,
+			"y": 2198
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.3a",
+		"tags": "Player",
+		"body": "Well, it was easier than a warrant. [[Answer:Node|Player1.3b]]",
+		"position": {
+			"x": 136,
+			"y": 1897
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.3b",
+		"tags": "Player",
+		"body": "Plus it was less likely to get me shot. [[Answer:Wolfington2.1|Wolfington2.0]]",
+		"position": {
+			"x": 135,
+			"y": 2196
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington2.0",
+		"tags": "Mr. Wolfington",
+		"body": "Jimmy, I assure you. My hands are clean on this one. [[Answer:Player2.2a|Player2.2a]] [[Answer:Player2.1a|Player2.1a]]",
+		"position": {
+			"x": -128,
+			"y": 2471
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.2a",
+		"tags": "Player",
+		"body": "You aren't the only werewolf in town anymore, Lloyd. [[Answer:Wolfington2.2b|Wolfington2.2b]]",
+		"position": {
+			"x": 175,
+			"y": 2783
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.1a",
+		"tags": "Player",
+		"body": "Yours may be, but what about your boys? [[Answer:Wolfington3.0|Wolfington3.0b]]<reqVar>wolfSuspect 1</reqVar>",
+		"position": {
+			"x": -1212,
+			"y": 3829
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Wolfington2.2b",
+		"tags": "Mr. Wolfington",
+		"body": "Are you talking about Lleroy?*[i]laughs[/i]* [[Answer:Wolfington2.2c|Wolfington2.2c]]",
+		"position": {
+			"x": 170,
+			"y": 3036
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington2.2c",
+		"tags": "Mr. Wolfington",
+		"body": "*[i]continues laughing[/i]* Him? His werewolf form would lose a fight to a Shih Tzu. [[Answer:Wolfington2.2d|Wolfington2.2d]]",
+		"position": {
+			"x": 170,
+			"y": 3286
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington2.2d",
+		"tags": "Mr. Wolfington",
+		"body": "Hell, even his damn name has a stutter. [[Answer:PlayerEnd01|PlayerEnd2.2]] [[Answer:Player3.1a|Player3.0a]]<clue>Lleroy Wolfington, the youngest of the three brothers, 9 years younger than the twins, is a sad excuse for the werewolf.</clue><clue><It definitely wasn't Lleroy</clue>",
+		"position": {
+			"x": 152,
+			"y": 3547
+		},
+		"colorID": 7
+	},
+	{
+		"title": "PlayerEnd2.2",
+		"tags": "Player",
+		"body": "I'm onto you, you sick fuck.",
+		"position": {
+			"x": 380,
+			"y": 3805
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Player3.0a",
+		"tags": "Player",
+		"body": "I meant Don and Jon and you know it. [[Answer:Wolfington3.0|Wolfington3.0b]]<reqVar>wolfSuspect 1</reqVar>",
+		"position": {
+			"x": -226,
+			"y": 3845
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Wolfington3.0b",
+		"tags": "Mr. Wolfington",
+		"body": "Them? They're not werewolves. [[Answer:Wolfington3.0b|Wolfington3.0c]]",
+		"position": {
+			"x": -723,
+			"y": 4228
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington3.0c",
+		"tags": "Mr. Wolfington",
+		"body": "Nope, just me. Definitely no other true werewolves in the family, [[Answer:Wolfington3.0c|Wolfington3.0d]]",
+		"position": {
+			"x": -738,
+			"y": 4536
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington3.0d",
+		"tags": "Mr. Wolfington",
+		"body": "And I can't even turn lupine without the help of Werewolf Viagra™!<clue>Werewolf Viagra. Gross</clue> [[Answer:Wolfington3.0d|Wolfington3.0e]]<cngVar>hateBoss 10</cngVar>",
+		"position": {
+			"x": -763,
+			"y": 4863
+		},
+		"colorID": 7
+	},
+	{
+		"title": "Wolfington3.0e",
+		"tags": "Mr. Wolfington",
+		"body": "From the makers of Viagra™, it's Werewolf Viagra™. To keep you howling all night long. [[Answer:Player3.1a|Player3.1a]] [[Answer:Player3.2a|Player3.2a]]",
+		"position": {
+			"x": -748,
+			"y": 5162
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player3.1a",
+		"tags": "Player",
+		"body": "Stop changing the subject. [[Answer:Player3.Xb|Player3.Xb]]",
+		"position": {
+			"x": -993,
+			"y": 5492
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player3.2a",
+		"tags": "Player",
+		"body": "Justice will prevail, Mr. Wolfington. [[Answer:Player3.Xb|Player3.Xb]]",
+		"position": {
+			"x": -572,
+			"y": 5485
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player3.Xb",
+		"tags": "Player",
+		"body": "One of your sons is guilty. I know it. [[Answer:Wolfington3.2a|Wolfington3.2a]]",
+		"position": {
+			"x": -805,
+			"y": 5852
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington3.2a",
+		"tags": "Mr. Wolfington",
+		"body": "If you even get near my family... [[Answer:WolfingtonEnd3.2|Wolfington3.2b]]",
+		"position": {
+			"x": -824,
+			"y": 6160
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Wolfington3.2b",
+		"tags": "Mr. Wolfington",
+		"body": "I'll bury you in so many lawsuits that your grandchildren go bankrupt from the lawyers fees. [[Answer:PlayerEnd4.1|PlayerEnd4.1]] [[Answer:PlayerEnd4.2|PlayerEnd4.2]]",
+		"position": {
+			"x": -818,
+			"y": 6433
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PlayerEnd4.1",
+		"tags": "Player",
+		"body": "Sure, that's what an innocent person says.",
+		"position": {
+			"x": -1083,
+			"y": 6691
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PlayerEnd4.2",
+		"tags": "Player",
+		"body": "If I had kids or money, maybe that would scare me.",
+		"position": {
+			"x": -565,
+			"y": 6703
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,122 @@
+[
+	{
+		"title": "Player1.0",
+		"tags": "Player",
+		"body": "Freeze, fucker! [[Answer:Boss01|Boss01]]",
+		"position": {
+			"x": -177,
+			"y": 2855
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Boss01",
+		"tags": "Boss",
+		"body": "Ah, Jimmy Mulligan, what an unexpected surprise. [[Answer:Player1.2|Player1.2]] [[Answer:Player1.3a|Player1.3a]]",
+		"position": {
+			"x": -178,
+			"y": 3134
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.2",
+		"tags": "Player",
+		"body": "You'll spend the rest of your life in prison, you murderous bastard. [[Answer:Boss1.4b|Boss1.4b]]",
+		"position": {
+			"x": -89,
+			"y": 3396
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.3a",
+		"tags": "Player",
+		"body": "I know you killed John Doe. [[Answer:Boss1.4b|Boss1.4b]]",
+		"position": {
+			"x": -432,
+			"y": 3385
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Boss1.4b",
+		"tags": "Boss",
+		"body": "Unfortunately, there's a pesky little thing called evidence. Have you got any? [[Answer:Player1.4End|Player1.4End]] [[Answer:Player1.5a|Player1.5a]]",
+		"position": {
+			"x": -288,
+			"y": 3720
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.4End",
+		"tags": "Player",
+		"body": "No, but I will!",
+		"position": {
+			"x": -69,
+			"y": 4061
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Player1.5a",
+		"tags": "Player",
+		"body": "<reqVar>hasPicture 1</reqVar>Would a picture of you covered in blood convince you? [[Answer:Boss1.5b|Boss1.5b]]",
+		"position": {
+			"x": -536,
+			"y": 4036
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Boss1.5b",
+		"tags": "Boss",
+		"body": "My lawyers beat worse charges before breakfast. That's ketchup, of course. [[Answer:Player1.5End|Player1.5End]] [[Answer:Player1.7a|Player1.7a]]",
+		"position": {
+			"x": -549,
+			"y": 4303
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.5End",
+		"tags": "Player",
+		"body": "And, uhh, something else, uhhhhhh.... [[Answer:Node|Boss1.6b]]",
+		"position": {
+			"x": -203,
+			"y": 4547
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Boss1.6b",
+		"tags": "Boss",
+		"body": "Haha, fool.",
+		"position": {
+			"x": -186,
+			"y": 4803
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.7a",
+		"tags": "Player",
+		"body": "<reqVar>hasBusinessCard 1</reqVar>And of course, your blood was found at the scene. [[Answer:Node|Boss1.7End]]",
+		"position": {
+			"x": -710,
+			"y": 4572
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Boss1.7End",
+		"tags": "Boss",
+		"body": "Oh shit! *runs away*<cngVar>changeScene 10</cngVar>",
+		"position": {
+			"x": -731,
+			"y": 4832
+		},
+		"colorID": 0
+	}
+]

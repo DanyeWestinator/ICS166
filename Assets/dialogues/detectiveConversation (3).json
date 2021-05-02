@@ -1,0 +1,172 @@
+[
+	{
+		"title": "detective1.1",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Oh good, you're finally awake. I've been calling [[Answer:Player2.1|Player2.1]] [[Answer:Player2.2|Player2.2]]",
+		"position": {
+			"x": 171,
+			"y": 123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.1",
+		"tags": "Player",
+		"body": "What do you mean finally, it's 8:30 in the morning.[[Answer:Player2.2|Player2.1a]]",
+		"position": {
+			"x": -250,
+			"y": 471
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.2",
+		"tags": "Player",
+		"body": "Yeah, I don't have a phone anymore [[Answer:Player2.2a|Player2.2a]] ",
+		"position": {
+			"x": 501,
+			"y": 451
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.1a",
+		"tags": "Player",
+		"body": "Normal people are never awake this early [[Answer:Detective3.1|Detective3.1]]",
+		"position": {
+			"x": -251,
+			"y": 733
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.2a",
+		"tags": "Player",
+		"body": "Phones require money, money requires cases [[Answer:Detective3.2|Detective3.2]]",
+		"position": {
+			"x": 487,
+			"y": 714
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective3.1",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Normal people don't look at dead bodies for a living [[Answer:Player4.1|Player4.1]] [[Answer:Player4.2|Player4.2]]",
+		"position": {
+			"x": -257,
+			"y": 989
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective3.2",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Well then have I come with good news. I got a case. An interesting one too [[Answer:Player6.2|Player6.2]]",
+		"position": {
+			"x": 485,
+			"y": 991
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player4.1",
+		"tags": "Player",
+		"body": "Normal people are also polite to their colleagues [[Answer:Detective5.1|Detective5.2]]",
+		"position": {
+			"x": -33,
+			"y": 1236
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player4.2",
+		"tags": "Player",
+		"body": "Ooh, so the case is a murder? Those pay well [[Answer:Detective5.1|Detective5.1]]",
+		"position": {
+			"x": -542,
+			"y": 1217
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective5.2",
+		"tags": "Detective Inspector Wainwright",
+		"body": "I'm sure you'll forgive me after the bone I'm about to throw you. We got a murder case. Bad one. Chief wants you on it [[Answer:Player6.2|Player6.2]]",
+		"position": {
+			"x": -34,
+			"y": 1494
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective5.1",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Christ, you could at least pretend to care about the vic [[Answer:Player6.1|Player6.1]]",
+		"position": {
+			"x": -541,
+			"y": 1492
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player6.2",
+		"tags": "Player",
+		"body": "I could sure do with a case right now. Beyond sitting in my beat up sedan for hours on end, waiting for a spouse to sneak off with the pool boy [[Answer:Detective7.1|Detective7.1]]",
+		"position": {
+			"x": 234,
+			"y": 1737
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player6.1",
+		"tags": "Player",
+		"body": "*[i]shrugs[/i]* I have bills to pay. And if I eat any more ramen, I might just cut out my own tongue so I can never taste again [[Answer:Detective7.1|Detective7.1]]",
+		"position": {
+			"x": -548,
+			"y": 1763
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective7.1",
+		"tags": "Detective Inspector Wainwright",
+		"body": "...right. Anyways, moving on... [[Answer:Detective7.2|Detective7.2]]",
+		"position": {
+			"x": -165,
+			"y": 2035
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective7.2",
+		"tags": "Detective Inspector Wainwright",
+		"body": "A jogger called in a body this morning, she found it in the alleyway next to the Rats, Bats, and Vats. John Doe [[Answer:Node|Player8.1]]",
+		"position": {
+			"x": -171,
+			"y": 2308
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player8.1",
+		"tags": "Player",
+		"body": "John? Oh no, poor Jane. She'll be heartbroken [[Answer:Detective9.1|Detective9.1]]",
+		"position": {
+			"x": -186,
+			"y": 2589
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective9.1",
+		"tags": "Detective Inspector Wainwright",
+		"body": "Yes, but not as heartbroken as she'll be if we can't find the killer. C'mon. I'll drive you over",
+		"position": {
+			"x": -196,
+			"y": 2892
+		},
+		"colorID": 0
+	}
+]

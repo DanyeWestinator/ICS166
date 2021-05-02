@@ -1,0 +1,222 @@
+[
+	{
+		"title": "Dr1.0",
+		"tags": "Dr. Frankenstein",
+		"body": "Care for a few holes? [[Answer:Player1.0a|Player1.0a]] [[Answer:Player1.2a|Player1.2a]]",
+		"position": {
+			"x": -55,
+			"y": 1853
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.0a",
+		"tags": "Player",
+		"body": "I am in a bit of a hurry, old chap<cngVar>talkingAboutBody 01</cngVar>",
+		"position": {
+			"x": -338,
+			"y": 2172
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.2a",
+		"tags": "Player",
+		"body": "<reqVar>wolfSuspect 1</reqVar>Actually, the only hole I wanted to discuss was the hole in John Doe. [[Answer:Frankenstein1.2b|Frankenstein1.2b]]<cngVar>talkingAboutBody 10</cngVar>",
+		"position": {
+			"x": 169,
+			"y": 2162
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Frankenstein1.2b",
+		"tags": "Dr. Frankenstein",
+		"body": "Yes, nasty business, that. Any luck catching them killers, then? [[Answer:Player1.2End|Player1.2End]] [[Answer:Player1.3a|Player1.3a]]",
+		"position": {
+			"x": 178,
+			"y": 2434
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.2End",
+		"tags": "Player",
+		"body": "No, unfortunately, no leads so far.",
+		"position": {
+			"x": 718,
+			"y": 2674
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Player1.3a",
+		"tags": "Player",
+		"body": "<reqVar>hasBlood 1</reqVar>You know, I did find something that may be helpul. [[Answer:Player1.3b|Player1.3b]]",
+		"position": {
+			"x": 177,
+			"y": 2765
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.3b",
+		"tags": "Player",
+		"body": "This blood was found some ways away from the body. It probably came from the killer. [[Answer:Node|Dr1.3b]]",
+		"position": {
+			"x": 178,
+			"y": 3029
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Dr1.3b",
+		"tags": "Dr. Frankenstein",
+		"body": "That's quite incriminating, if you knew whose blood. [[Answer:Player1.3End|Player1.3End]] [[Answer:Player1.4a|Player1.4a]]",
+		"position": {
+			"x": 169,
+			"y": 3291
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.3End",
+		"tags": "Player",
+		"body": "Yes, you're right. I'll come back when I have more.",
+		"position": {
+			"x": 308,
+			"y": 3539
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Player1.4a",
+		"tags": "Player",
+		"body": "<reqVar>hasBusinessCard 1</reqVar>I am absolutely sure that Jon Wolfington handled this, and that he's the killer. [[Answer:Player1.4b|Player1.4b]]",
+		"position": {
+			"x": -70,
+			"y": 3648
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.4b",
+		"tags": "Player",
+		"body": "It even has his blood on it. [[Answer:Dr.1.4c|Dr.1.4c]]",
+		"position": {
+			"x": -86,
+			"y": 3927
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Dr.1.4c",
+		"tags": "Dr. Frankenstein",
+		"body": "There's an easy way to tell if he handled this. [[Answer:Dr1.4d|Dr1.4d]]",
+		"position": {
+			"x": -66,
+			"y": 4186
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Dr1.4d",
+		"tags": "Dr. Frankenstein",
+		"body": "He had a DUI some years back, so his prints are just on final. Shh about me doing this, by the way. [[Answer:Player1.4e|Player1.4e]]",
+		"position": {
+			"x": -54,
+			"y": 4451
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.4e",
+		"tags": "Player",
+		"body": "*Hands over note* [[Answer:Node|Dr1.4f]]",
+		"position": {
+			"x": -51,
+			"y": 4692
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Dr1.4f",
+		"tags": "Dr. Frankenstein",
+		"body": "Oh, he definitely handled this. This is without a doubt his blood. What else do you have for me? [[Answer:Node|Player1.4End]] [[Answer:Player1.5a|Player1.5a]]",
+		"position": {
+			"x": -60,
+			"y": 4986
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.4End",
+		"tags": "Player",
+		"body": "That's it, unfortunately.",
+		"position": {
+			"x": 161,
+			"y": 5231
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Player1.5a",
+		"tags": "Player",
+		"body": "<reqVar>hasPicture 1</reqVar>There's this picture that shows him clearly covered in blood. [[Answer:Node|Player1.5b]] [[Answer:Player1.5End|Player1.5End]]",
+		"position": {
+			"x": -293,
+			"y": 5237
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.5b",
+		"tags": "Player",
+		"body": "I should go collect more evidence. [[Answer:Dr1.5b|Dr1.5b]]",
+		"position": {
+			"x": -86,
+			"y": 5555
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Dr1.5b",
+		"tags": "Dr. Frankenstein",
+		"body": "Did you try looking by the Wolfington Marina? [[Answer:Dr1.5c|Dr1.5c]]",
+		"position": {
+			"x": -69,
+			"y": 5839
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Dr1.5c",
+		"tags": "Dr. Frankenstein",
+		"body": "Or maybe speak to the au pair, who should be hiding in Ramsett Park [[Answer:DrEnd|DrEnd]]",
+		"position": {
+			"x": -72,
+			"y": 6105
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DrEnd",
+		"tags": "Dr. Frankenstein",
+		"body": "Best of luck to you, bringing justice to the world",
+		"position": {
+			"x": -77,
+			"y": 6384
+		},
+		"colorID": 8
+	},
+	{
+		"title": "Player1.5End",
+		"tags": "Player",
+		"body": "I think I have enough evidence to bring this sick bastard down.<cngVar>startBoss 10</cngVar>",
+		"position": {
+			"x": -623,
+			"y": 5563
+		},
+		"colorID": 8
+	}
+]

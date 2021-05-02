@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Dr1.0",
+		"tags": "Dr. Frankenstein",
+		"body": "Care for a few holes? [[Answer:Player1.0a|Player1.0a]]",
+		"position": {
+			"x": -54,
+			"y": 1856
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player1.0a",
+		"tags": "Player",
+		"body": "I am in a bit of a hurry, old chap",
+		"position": {
+			"x": -66,
+			"y": 2094
+		},
+		"colorID": 0
+	}
+]

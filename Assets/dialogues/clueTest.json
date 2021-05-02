@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Player1.1",
+		"tags": "Player",
+		"body": "This should be a cake walk [[Answer:Detective1.1|Detective1.1]]",
+		"position": {
+			"x": -29,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Detective1.1",
+		"tags": "Detective Inspector Wainwright",
+		"body": "<clue>The bar closes at 11</clue>I think the bar closes at 11? [[Answer:Player2.1|Player2.1]] [[Answer:Player2.2|Player2.2]]",
+		"position": {
+			"x": -33,
+			"y": -80
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.1",
+		"tags": "Player",
+		"body": "That's handy information!",
+		"position": {
+			"x": -241,
+			"y": 160
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Player2.2",
+		"tags": "Player",
+		"body": "Fo shizzle!",
+		"position": {
+			"x": 75,
+			"y": 161
+		},
+		"colorID": 0
+	}
+]
