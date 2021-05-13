@@ -1,0 +1,34 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/media.rpy", line 7, in script
+    $ p_im = p_image
+  File "game/media.rpy", line 7, in script
+    $ p_im = p_image
+  File "game/media.rpy", line 7, in <module>
+    $ p_im = p_image
+NameError: name 'p_image' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 515, in main
+    renpy.game.context().run(node)
+  File "game/media.rpy", line 7, in script
+    $ p_im = p_image
+  File "game/media.rpy", line 7, in script
+    $ p_im = p_image
+  File "renpy/ast.py", line 922, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2218, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/media.rpy", line 7, in <module>
+    $ p_im = p_image
+NameError: name 'p_image' is not defined
+
+Windows-10-10.0.19041
+Ren'Py 7.4.4.1439
+ICS166 Project 1.0
+Wed May 12 19:27:51 2021

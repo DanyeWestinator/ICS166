@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/media.rpy", line 36: expected a keyword argument or end of line.
+    xpos = 800
+         ^
+
+Ren'Py Version: Ren'Py 7.4.4.1439
+Wed May 12 19:35:41 2021
