@@ -9,6 +9,7 @@ image f_temp = im.Scale("f_temp.png",700,800)
 image phone = im.Scale("phone.png", 900,1050)
 
 image bg_temp = "back_temp.jpg"
+image explosion = "explosion.png"
 
 #init vars
 init:
@@ -26,7 +27,7 @@ label start:
     # files called s#.rpy based on which scene you are doing
     # Keep any sub scenes you descide to create out of the main so it is clean
     call s1
-    call screen media
+    #call screen media
 
     #End game
     z "This will end the game"
