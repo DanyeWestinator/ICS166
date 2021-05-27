@@ -9,42 +9,43 @@
     #Show Farmer
     show f_temp at pos_right
 
-    j "Hey come over here. It looks like some people are commenting on the post"
-    z "Where are these people? I do not see any other mortals around"
-    j "No, look on the phone."
+    j "Hey come over here. It looks like a few people actually commented on the post."
+    z "Where are these people? I do not see any other mortals around."
+    j "No, on the phone. Come over here and look."
 
-    p "User1: Nice One."
-    p "User2: Damn this dude b ripped"
-    p "User3: it is ob fake just look at it."
+    p "Steve77: nice"
+
+    z "Yes Steve77, this phone drawing of me is exceptionally fine."
+    j "You know they can't hear you right?"
+    z "What are you taking about they have ears don't they?"
+    j "Thats not how this works. You want to talk them you are going to have to type it out."
+    j "Look do you see that reply button, press it and you can type out a message for them."
 
     menu:
-        "Reply?"
-
-        "What mortal dares call my powers fake!":
+        p "Reply?"
+        "Yes Steve77 this phone drawing of me is exceptionally fine.":
             $ follow_count += 1
-        "Just wait till I smite thee for your foolish remarks":
+
+    j "Also is called a picture by the way"
+
+    p "The_HatEnthusiast: Nice hat. Looks like some fine quality leather. Where did you pick it up"
+    p "JuiceMan: What are you some kind of cowboy get with the times"
+
+    menu:
+        p "Reply?"
+
+        "I am neither part beast or part human! I am a God!":
+            $ follow_count += 1
+        "Since when have mortals mixed with cattle? Horses were much more fitting.":
             $ follow_count += 3
         "Ignore it":
             $ follow_count += 2
+            return
 
-    z "Well then"
-    p "Current Follower Count: [follow_count]"
-
-    hide f_temp
-
-    z "Here are some other possible scenes/posts:"
-    z "One where Zeus discovers how electronics and stuff harness lightning for mortal use"
-    $ post("desc_test","bulb",0.7)
-    z "Could have a post of him lighting up a lightbub with only his fingers"
-    z "Could have an additional one based on this concept where he is charging up a phone by placing is finger on the end of a charger"
-    $ post("desc_test","phonec",0.7)
-    z "Could have one just showing off how ripped and strong he is since he is a godly being"
-    z "The post could just be him flexing for the camera and stuff"
-    $ post("desc_test","flex",0.7)
-    z "One where Zeus has more of his power and commands a lighting strike behind him"
-    z "The post would be him looking looking smug with the lightning crash lighing up the background"
-    $ post("desc_test","strike",0.7)
-
-
+    j "You don't know what a cowboy is do you?"
+    z "Of course I do, some weird modern centaur or satyr."
+    j "No they are like farmer workers that ride on horses and stuff. Used to be popular back in the day."
+    z "Where does the cow come from in any of this? You humans have lost all common sense. Why not a horseboy or farmerboy instead."
+    j "*Sign*"
 
     return
