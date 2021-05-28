@@ -1,5 +1,11 @@
-# Custom
+# Custom (Ren'py)
 *.rpyc
+*.rpyb
+*.save
+log.txt
+errors.txt
+traceback.txt
+persistent
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
