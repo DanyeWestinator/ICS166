@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/s1.rpy", line 39: end of line expected.
-    j "Sir, do you need any help?":
-                                  ^
+File "game/s1.rpy", line 120: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+            "The car drives away as the pounding sound of Led Zeppelin fills the air
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Mon May 17 16:24:44 2021
+Sat May 29 14:52:16 2021

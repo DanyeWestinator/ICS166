@@ -10,7 +10,7 @@ define t1 = Character("Teen1")
 
 # The game starts here.
 
-label start:
+label s3:
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -20,7 +20,7 @@ label start:
 
 
 
-#add an intro dialogue with farmer
+    #add an intro dialogue with farmer
     show zeus normal at top
     z "Who is this peasant who stand before me?"
 

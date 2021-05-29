@@ -1,13 +1,13 @@
-Mon May 17 17:37:02 2021
+Sat May 29 15:00:05 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
  
 
-Bootstrap to the start of init.init took 0.06s
+Bootstrap to the start of init.init took 0.07s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.13s
+Loading script took 0.17s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -16,14 +16,14 @@ Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dcars\\AppData\\Roaming/RenPy/backups\\ICS166 Project':
-Dump and make backups. took 0.08s
+Dump and make backups. took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.23s
+Creating interface object took 0.26s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
@@ -32,10 +32,10 @@ Analyze screens took 0.01s
 Save screen analysis took 0.06s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.18s
+Interface start took 0.21s
 
 Initializing gl renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -59,16 +59,14 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Screen sizes: virtual=(1920, 1080) physical=(2075, 1167) drawable=(2075, 1167)
+Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 1.32444095612s
-Screen sizes: virtual=(1920, 1080) physical=(2076, 1167) drawable=(2076, 1167)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Screen sizes: virtual=(1920, 1080) physical=(1908, 1004) drawable=(1908, 1004)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Screen sizes: virtual=(1920, 1080) physical=(1908, 970) drawable=(1908, 970)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
+Total time until interface ready: 1.54092001915s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

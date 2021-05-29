@@ -26,7 +26,18 @@ label start:
     # For ease of editing and source control keep your scenes in seperate
     # files called s#.rpy based on which scene you are doing
     # Keep any sub scenes you descide to create out of the main so it is clean
+
     call s1
+    "scene 1 has ended!"
+    "End the game now?"
+    menu:
+        "Yes":
+            return
+        "No":
+            "Continue the game!"
+    call s4
+    call s5
+    call s6
     $ post("desc_test","option1",0.6)
     call com1
 
