@@ -6,10 +6,15 @@ define p = Character("Phone")
 #File Defines
 image z_temp = im.Scale("z_temp.png",700,800)
 image f_temp = im.Scale("f_temp.png",700,800)
+image f_drive = "farmer_driving.jpg"
+image z_2 = "Zeus normal.png"
 image phone = im.Scale("phone.png", 900,1050)
 
 image bg_temp = "back_temp.jpg"
+image dark_road = "dark_road.jpg"
+image farm_back = "farm_back.jpg"
 image explosion = "explosion.png"
+image mall = "mall.jpg"
 
 #init vars
 init:
@@ -28,13 +33,9 @@ label start:
     # Keep any sub scenes you descide to create out of the main so it is clean
 
     call s1
-    "scene 1 has ended!"
-    "End the game now?"
-    menu:
-        "Yes":
-            return
-        "No":
-            "Continue the game!"
+    call s2
+    call s3
+
     call s4
     call s5
     call s6

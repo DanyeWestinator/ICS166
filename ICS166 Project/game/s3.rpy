@@ -16,7 +16,7 @@ label s3:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene mall
 
 
 

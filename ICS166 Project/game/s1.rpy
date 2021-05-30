@@ -67,7 +67,9 @@
                 z "Is that near Sparta?"
                 j "Oh, only a few thousand miles away"
 
-        j "But you're not {i}actually{/i} Zeus right?"
+        j "My name's Johnathn Deir, but you can call me Jack."
+        j "Seems a mite rude for me to know what you claim your name to be, but not for you to know mine"
+        j "...You're not {i}actually{/i} Zeus right?"
         j "That has to be a bit!"
         z "Big beard, white robe, able to withstand meteoric impacts, who else did you think I was?"
         j "To be frank, I just assumed homeless."
