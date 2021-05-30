@@ -15,7 +15,7 @@ label s5:
     z "I am a god."
     z "This is so humiliating."
 
-    j "Now that I think about it, you mentioned how a gods's power is measured by their number of followers right?"
+    j "Now that I think about it, you mentioned how a god\'s power is measured by their number of followers right?"
 
     z "Yeah, what about it?"
 
@@ -33,7 +33,7 @@ label s5:
     j "*Nods*"
 
     z "And it just keeps getting worse."
-    z "When I got here, I thought I would have to, at worse, get people to worship me as a god again."
+    z "When I got here, I thought I would have to, at worst, get people to worship me as a god again."
     z "But, I can't even hope for that now?"
 
     j "..."
@@ -45,3 +45,4 @@ label s5:
     j "I was just wondering if people needed to worship you as \"Zeus the Greek God\"."
 
     return
+

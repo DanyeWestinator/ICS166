@@ -15,10 +15,10 @@
 
     p "Steve77: nice"
 
-    z "Yes Steve77, this phone drawing of me is exceptionally fine."
+    z "Yes, Steve77, this phone drawing of me is exceptionally fine."
     j "You know they can't hear you right?"
     z "What are you taking about they have ears don't they?"
-    j "Thats not how this works. You want to talk them you are going to have to type it out."
+    j "That's not how this works. If you want to talk them you are going to have to type it out."
     j "Look do you see that reply button, press it and you can type out a message for them."
 
     menu:
@@ -28,7 +28,7 @@
 
     j "Also is called a picture by the way"
 
-    p "The_HatEnthusiast: Nice hat. Looks like some fine quality leather. Where did you pick it up"
+    p "The_HatEnthusiast: Nice hat. Looks like some fine quality leather. Where did you pick it up?"
     p "JuiceMan: What are you some kind of cowboy get with the times"
 
     menu:

@@ -7,13 +7,13 @@
     show f_temp at pos_right
 
     z "Farmer, there is something I have been meaning to ask."
-    j "Its Jonathan but go for it."
+    j "It's Jonathan but go for it."
     z "How does this phone contraption work anyways? How does one trap so many mortals into such a small box?"
     j "Its not like that, no one is trapped inside. It just allows people to communicate with each other over a long distance."
     z "Quite a novel device, but where are the humans delivering these messages?"
-    j "There aren't any. It uses electricty and some wave stuff to send the message."
-    z "Electricty! Are you claiming mortals have harnesses some of my divine power?"
-    j "In a way I guess. I am not sure how they do it but electricity is used for a lot of things. Like the lights in this room for example."
+    j "There aren't any. It uses electricity and some wave stuff to send the message."
+    z "Electricity! Are you claiming mortals have harnesses some of my divine power?"
+    j "In a way, I guess. I am not sure how they do it but electricity is used for a lot of things. Like the lights in this room for example."
     z "The lights you say."
     j "Ya. Here i think I have a spare lightbulb somewhere here if you want to take a look."
     hide f_temp
@@ -30,7 +30,7 @@
     j "You know what, fair point."
     j "Actually thinking about it, you could use this to get some more followers."
     z "Go on, Continue."
-    j "We could record you powering some lightbulbs with just your hands. I am sure thats something people don't see everyday."
+    j "We could record you powering some lightbulbs with just your hands. I am sure thats something people don't see every day."
     z "Yes, you have proven yourself quite useful farmer. Prepare the phone for this recording."
 
     hide f_temp
@@ -59,10 +59,10 @@
             j "Sometimes it best to just ignore people like that."
             jump com2_2
 
-    z "What mortals would dare risk prevoking my wrath. You humans have lost all disiplne."
+    z "What mortals would dare risk provoking my wrath. You humans have lost all disiplne."
     j "That is pretty par for the course nowadays. You can't really trust stuff that people post."
     z "How could they not believe it, they have eyes. They can clearly see my power."
-    j "Ya, but there are many way to fake sutff like this. You are going to need something even more spectacular if you want more people to follow."
+    j "Ya, but there are many ways to fake stuff like this. You are going to need something even more spectacular if you want more people to follow."
     jump com2_2
 
 label com2_2:
