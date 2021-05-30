@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/s2.rpy", line 63: expected statement.
-    clear
-         ^
+File "game/s1.rpy", line 40: expected menuitem
+    hide explosion
+    ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Sat May 29 22:24:48 2021
+Sun May 30 13:14:36 2021

@@ -22,7 +22,7 @@ label s3:
 
     #add an intro dialogue with farmer
     show zeus normal at top
-    z "Who is this peasant who stand before me?"
+    z "Who is this peasant who stands before me?"
 
     "*snap*"
     z "AND WHAT IS THAT INFERNAL NOISE!?"
@@ -60,12 +60,12 @@ label s3:
     f "I don't think so."
     f "I think she's using her cell phone to get people to look at pictures of her."
     z "Cell - .. phone?"
-    f "Yeah. People use them all over the world to talk to eachother nowadays."
+    f "Yeah. People use them all over the world to talk to each other nowadays."
     z "Where is yours?"
     f "I don't use government tracking devices. It's what they want, you know."
     f "Anyway, maybe she can help you."
     z "Pfft..."
-    f "I guess its back to the farmhouse?"
+    f "I guess it's back to the farmhouse?"
     z " .. I guess I'd be willing to try."
     hide zeus
     hide farmer
@@ -75,7 +75,7 @@ label s3:
     hide teen1
     show teen1 normal at topright
     show zeus normal at topleft
-    "She hands Zeus a phone"
+    "*She hands Zeus a phone*"
     z "That was easy.."
     t1 "Yeah I've got lots of them. I'll tell you a secret - half my followers are these other phones I have."
     t1 "PLEASE DON'T TELL ANYONE!"

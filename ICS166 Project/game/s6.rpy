@@ -13,7 +13,7 @@ label s6:
     j "I can't tell if you are being serious or not."
 
     z "I can't tell either."
-    z "Are asking me to drop to the level as a human and throw away my pride as a god?"
+    z "Are you asking me to drop to the level of a human and throw away my pride as a god?"
 
     j "I'm pretty you are no different from a human at this point."
     j "Plus I think that you would have more of a shot with this than with your original plan."
@@ -30,7 +30,7 @@ label s6:
     j "I think so?"
     j "Think of it more like a place to post images and updates about your life."
 
-    z "So no theatre?"
+    z "So, no theatre?"
 
     j "No theatre."
     j "Speaking of which, remember that diner we went to the other day?"
