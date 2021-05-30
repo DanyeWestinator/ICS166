@@ -1,7 +1,3 @@
-# Characters:
-#   Farmer  -> j
-#   Zeus    -> z
-
 label s4:
 
     # Initial Background
@@ -42,7 +38,7 @@ label s4:
 
     z "You know, I'm starting to think I'm not getting the respect I deserve."
     z "Anyways, as I was saying."
-    z 'Have you ever head of the saying, "If you believe in something hard enough, it\'ll come true"?'
+    z "Have you ever heard of the saying, \"If you believe in something hard enough, it\'ll come true\"?"
 
     j "Yeah. What about it?"
 
@@ -64,3 +60,5 @@ label s4:
     j "..."
 
     return
+
+
