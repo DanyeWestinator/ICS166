@@ -41,6 +41,8 @@ label start:
     call s6
     $ post("desc_test","option1",0.6)
     call com1
+    call com2
+    call com3
 
     #End game
     z "This will end the game"

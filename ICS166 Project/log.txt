@@ -1,84 +1,41 @@
-Sat May 29 22:24:48 2021
+Sun May 30 13:03:33 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
  
 
-Bootstrap to the start of init.init took 0.07s
+Bootstrap to the start of init.init took 0.10s
 Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-
-File "game/s2.rpy", line 63: expected statement.
-    clear
-         ^
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.48s
-
-Initializing gl renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GTX 1060 with Max-Q Design/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 442.19'
-Display Info: None
-Number of texture units: 32
-Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Using gl renderer.
-Texture testing:
-- Hardware max texture size: 32768
-- 64px textures work.
-- 128px textures work.
-- 256px textures work.
-- 512px textures work.
-- 1024px textures work.
-- 2048px textures work.
-Screen sizes: virtual=(1920, 1080) physical=(2136, 1202) drawable=(2136, 1202)
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
-Total time until interface ready: 1.2127559185s
-Resetting cache.
-Bootstrap to the start of init.init took 35.77s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
+Loader init took 0.02s
+Loading error handling took 0.06s
+Loading script took 0.51s
+Loading save slot metadata. took 0.22s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
+Running init code took 0.15s
+Loading analysis data took 0.05s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dcars\\AppData\\Roaming/RenPy/backups\\ICS166 Project':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.18s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.30s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.06s
+Save screen analysis took 0.07s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.44s
 
 Initializing gl renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -105,4 +62,4 @@ Texture testing:
 Screen sizes: virtual=(1920, 1080) physical=(2136, 1202) drawable=(2136, 1202)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 36.6569061279s
+Total time until interface ready: 2.90178203583s
