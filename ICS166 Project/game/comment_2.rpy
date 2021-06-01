@@ -1,21 +1,25 @@
 ﻿label com2:
 
     #Show Zeus
+    scene farm_back
     show z_temp at pos_left
 
     #Show Farmer
     show f_temp at pos_right
+    hide phone2
+    image phone_com2 = "phone.png"
 
     z "Farmer, there is something I have been meaning to ask."
     j "It's Jonathan but go for it."
-    z "How does this phone contraption work anyways? How does one trap so many mortals into such a small box?"
-    j "Its not like that, no one is trapped inside. It just allows people to communicate with each other over a long distance."
-    z "Quite a novel device, but where are the humans delivering these messages?"
+    z "How does this phone contraption work anyways? How does one enchant such an object without the will of the Gods?"
+    j "Its not like that, humans don't have to rely on magic anymore.
+    It just allows people to communicate with each other over a long distance."
+    z "Quite a novel device, but where are the nymphs delivering these messages? It has been a lonely 12 hours. "
     j "There aren't any. It uses electricity and some wave stuff to send the message."
-    z "Electricity! Are you claiming mortals have harnesses some of my divine power?"
+    z "Electricity! Are you claiming mortals have harnessed some of my divine power?"
     j "In a way, I guess. I am not sure how they do it but electricity is used for a lot of things. Like the lights in this room for example."
     z "The lights you say."
-    j "Ya. Here i think I have a spare lightbulb somewhere here if you want to take a look."
+    j "Yep. Here, I think I have a spare lightbulb somewhere here if you want to take a look."
     hide f_temp
     "He goes into a storage closet."
     show f_temp at pos_right
@@ -31,11 +35,11 @@
     j "Actually thinking about it, you could use this to get some more followers."
     z "Go on, Continue."
     j "We could record you powering some lightbulbs with just your hands. I am sure thats something people don't see every day."
-    z "Yes, you have proven yourself quite useful farmer. Prepare the phone for this recording."
+    z "Yes, you have proven yourself quite useful, Farmer. Prepare the phone for this recording."
 
     hide f_temp
     hide z_temp
-    $ post("desc_test","bulb",0.5)
+    $ post("desc2","bulb",0.5)
 
     #Show Zeus
     show z_temp at pos_left
@@ -66,11 +70,8 @@
     jump com2_2
 
 label com2_2:
-    p "largeLAD: :ok_hand: :fire: :100: :eyes:"
-    z "What is this gibberish?"
-    j "Don't worry about it."
     p "yahooOo00oo: wats the secret"
     p "jChillin: P cool how did u do it?"
-
+    f "Knock on wood, but we'll have you home in no time."
 
     return

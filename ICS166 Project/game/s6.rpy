@@ -24,14 +24,14 @@ label s6:
     z "Social media? Platform?"
     z "Ah, like the Theatre of Dionysus."
 
-    j "I think so?"
-    j "Think of it more like a place to post images and updates about your life."
+    j "No?
+        \nThink of it more like a place to post images and updates about your life."
 
     z "So, no theatre?"
 
     j "No theatre."
     j "Do you have that phone from the mall?"
-    z "perhaps you will have more luck coaxing an intelligible reaction from the thing than I had."
+    z "Perhaps you will have more luck coaxing an intelligible reaction from the thing than I had."
 
     return
 
