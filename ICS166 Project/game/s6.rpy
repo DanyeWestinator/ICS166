@@ -31,7 +31,7 @@ label s6:
 
     j "No theatre."
     j "Do you have that phone from the mall?"
-    z "perhaps you will have more luck coaxing an intelligable reaction from the thing than I had."
+    z "perhaps you will have more luck coaxing an intelligible reaction from the thing than I had."
 
     return
 
