@@ -5,18 +5,15 @@ label s6:
     show z_temp at pos_left
     show f_temp at pos_right
 
-    j "If you can't get people to worship you as god, then what about as a celebrity?"
-    j "You know, fight fire with fire."
+    j "I think getting people to worship you as a god is right out. People don't worship Zeus and Hera much in 2041."
+    z "And why, in the name of Cerberus's furballs, do people not still worship my majesty?"
+    j "That's just not what people worship now-a-days. Instead, I think we could make you famous for something else. Get you InstaBlab followers, enough to get you back home."
 
-    z "Last time I tried that with Hades, all of hell almost broke loose."
-
-    j "I can't tell if you are being serious or not."
-
-    z "I can't tell either."
     z "Are you asking me to drop to the level of a human and throw away my pride as a god?"
 
-    j "I'm pretty you are no different from a human at this point."
+    j "I'm pretty sure you are no different from a human at this point."
     j "Plus I think that you would have more of a shot with this than with your original plan."
+    j "Which last time I checked, didn't exist."
 
     z "*sigh* Fine then. Let's go with your idea."
     z "What should we do first?"
@@ -33,9 +30,8 @@ label s6:
     z "So, no theatre?"
 
     j "No theatre."
-    j "Speaking of which, remember that diner we went to the other day?"
-    j "Well I overheard some people talking about how one of their friends posted a picture of them with a celebrity on Twipper."
-    j "Let's try starting out there for now and see it works."
+    j "Do you have that phone from the mall?"
+    z "perhaps you will have more luck coaxing an intelligable reaction from the thing than I had."
 
     return
 

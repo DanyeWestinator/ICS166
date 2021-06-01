@@ -13,7 +13,7 @@ label s3:
     "Jack and Zeus are at the Mall, which also servers
     as the town's Greyhound station. They have two hours to kill before the bus, and Zeus would need a disguise for his journey to Fargo."
     "Zeus offloaded enough gold bangles and trinkets at the Pawn-N-Ammo-N-Bait-Eds to pay for first class air travel to Larissa,
-    as well as possibly destabalize the local economy for years to come."
+    as well as possibly destabilize the local economy for years to come."
 
 
 
@@ -39,15 +39,11 @@ label s3:
     z "You dare ask me my nam -"
 
 
-    show farmer normal at truecenter
-    f "Hold on a second, Zeus. Between some of her nonsense, I heard her mention something about followers."
-    f "Didn't you say you were powerless without them?"
-    hide farmer
 
     show teen1 normal at topright
-    t1 "OMG I'd be so powerless too without my beautiful people!!"
+    t1 "OMG I'd be so powerless without my followers!!!"
 
-    z "Please, humble farmer... don't tell me she is some sort of..."
+    z "Powerless without her followers? Farmer, please don't tell me she is some sort of..."
     z "\"Modern God\"..."
 
     show farmer normal at truecenter
@@ -75,7 +71,7 @@ label s3:
     t1 "{i}*blows bubble gum bubble*{/i}"
     t1 "You can see all the comments.
         Luckily nobody pointed out how much I look like Bo Burnham in this picture.
-        That might be because half these comments were my other accounts!"
+        That might be because half of these comments were my other accounts!"
     t1 "I can reply to comments, like I'm going to reply something to Saraah."
     t1 "\"Thanks guuuuurl!!!\"?\n
         Yeah, I think so. Post!"
