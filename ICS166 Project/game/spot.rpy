@@ -47,7 +47,7 @@ label spot:
             z "Why would that?"
             z "There is no need for a god to interact with all of his followers."
             z "Do you have any idea how busy I would be if I greeted every mortal that worshipped me?"
-            f "I don't disagree, it sounds like a lot of work, but it would be nice gesture."
+            j "I don't disagree, it sounds like a lot of work, but it would be nice gesture."
 
 
     j "We should be getting back home soon before it gets too dark out."
