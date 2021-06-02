@@ -1,7 +1,7 @@
 ﻿label com1:
 
     #Initial Background
-    scene bg_temp
+    scene farm_back
 
     #Show Zeus
     $z_left = Position(xpos=0.2, ypos=0.7)
@@ -12,6 +12,7 @@
     $f_right = Position(xpos=0.8, ypos=0.75)
     show f2 at f_right
 
+    "Sometime the next morning."
     j "Hey come over here. It looks like a few people actually commented on the post."
     z "Where are these people? I do not see any other mortals around."
     j "No, on the phone. Come over here and look."
