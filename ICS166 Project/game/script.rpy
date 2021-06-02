@@ -43,6 +43,7 @@ label start:
         call s4
         call s5
         call s6
+        call s7
         call com1
         call com2
         call spot
