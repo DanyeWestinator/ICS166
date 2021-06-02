@@ -22,10 +22,12 @@
 
             jump helps
         "Don't investigate":
-            "You drive away, worry about what that explosion was gnawing away at your insides."
-            "Eventually, curiosity and possible property damage force your hand to turn the car around."
-            j "Dammit, I was this close to being done for the night."
-            jump helps
+            "You decide to drive away and not worry about it."
+            j "It probably wasn't that important."
+            "And with that, the farmer continued on with his peaceful and rather uneventful life,"
+            "Never knowing what he missed out on."
+            $ e_end = True
+            return
 
 
     label helps:
@@ -33,36 +35,38 @@
         "You eventually come across a crater, some fifty feet off the road."
         "The crater is smoking, with flames still licking around the edges."
         "Inside the crater lies a man."
-        z "*muffled groaning*"
-        z "oh that'll really put the millenia on someone."
+        u "*muffled groaning*"
+        u "Oh that'll really put the millenia on someone."
         show z_temp at pos_left
         hide explosion
         menu:
 
             "Sir, do you need any help?":
-                z "no, actually, dirt pits are quiet comfortable."
-                z "Though if you don't mind terribly, I would like to leave this particular one."
-                z "I'd get myself out, but my limbs don't seem to want to move properly just yet."
-                z "That was a hell of a landing I just made."
+                u "No, actually, dirt pits are quiet comfortable."
+                u "Though if you don't mind terribly, I would like to leave this particular one."
+                u "I'd get myself out, but my limbs don't seem to want to move properly just yet."
+                u "That was a hell of a landing I just made."
             "Oh good god, are you still alive????":
-                z "Technically, yes,"
-                z "Though I likely took a pretty severe beating in the crash. \nNone of this looks familiar."
+                u "Technically, yes,"
+                u "Though I likely took a pretty severe beating in the crash. \nNone of this looks familiar."
 
         j "What do you mean you landed here? Did you see what made the crater?"
-        "With many groans of pain, Zeus climbs from the inside of the crater."
+        "With many groans of pain, the man climbs from the inside of the crater."
         "He gestures behind him, down the sloping twenty feet of smouldering rubble."
-        z "I don't think you seem to be getting that I made this crater."
+        u "I don't think you seem to be getting that I made this crater."
         menu:
             "That's not possible.":
                 j "You'd have died on impact!"
-                z "Do I look dead to you?"
+                u "Do I look dead to you?"
                 j "No?"
-                z "Can you see any other way this crater got made?"
+                u "Can you see any other way this crater got made?"
                 j "Gas explosion?"
-                z "Hah! Gas explosion! Why do mortals never want to accept that there's a divine presence before them?"
+                u "Hah! Gas explosion! Why do mortals never want to accept that there's a divine presence before them?"
+                j "Divine presence?"
+                u "Is it not obvious, I am Zeus."
             "Hah! Good one!":
                 j "And I'm Zeus!"
-                z "No, I am."
+                u "No, I am."
                 j "...What?"
                 z "Who did you think I was?"
                 j "Funnily enough, I hadn't considered coming across the Lord of the Skies while in my field in North Dakota"
@@ -100,12 +104,12 @@
                 j "But I haven't the slightest idea how to even begin helping you there."
                 j "I have a bachelors in farm management, this is a bit above my pay grade."
                 j "But the least I can offer you is a couch to crash on, and a ride to the Greyhound station in the morning."
-                j "Er, your majesty."
+                j "Er, {i}your majesty{/i}."
                 z "Lord Zeus, if you please."
                 jump offer_couch
             "I don't know how the hell you got into this crater, but I'm starting to feel you took some brain damage in the landing.":
                 z "Nonsense!"
-                z "This crash is nothing. I've taken plenty worse battle hits before."
+                z "This crash is nothing. I've taken plenty worse hits in battle before."
                 j "Silly me. I figured any god that could crash into a field like a meteor could teleport"
                 z "For some mystical reason, I seem to be bereft of my normal powers"
                 j "Sure, buddy."
@@ -118,7 +122,7 @@
 
     label offer_couch:
         z "Even the gods are not too humble to accept charity from mortals."
-        z "Hopefully couches in this land are as comfortable as the ones on Olympus."
+        z "Hopefully couches in this land are at least half as comfortable as the ones on Olympus."
         z "They're made of actual clouds!"
         j "Well, you'll be getting the finest of IKEA, {i}your majesty.{/i}"
         z "Just Lord Zeus, if you don't mind."

@@ -2,6 +2,7 @@
 define z = Character("Zeus")
 define j = Character("Jonathan Deir")
 define p = Character("Phone")
+define u = Character("Unkown Man")
 
 #File Defines
 image z_temp = im.Scale("z_temp.png",700,800)
@@ -24,6 +25,7 @@ init:
     $ pos_left = Position(xpos=0.2, ypos=0.9)
     $ pos_right = Position(xpos=0.8, ypos=0.9)
     $ pos_center = Position(xpos=0.5, ypos=0.9)
+    $ e_end = False
 
 # The game starts here.
 label start:
@@ -35,16 +37,18 @@ label start:
     # Keep any sub scenes you descide to create out of the main so it is clean
 
     call s1
-    call s2
-    call s3
-
-    call s4
-    call s5
-    call s6
-    #$ post("desc_test","option1",0.6)
-    call com1
-    call com2
-    call com3
+    if not e_end:
+        call s2
+        call s3
+        call s4
+        call s5
+        call s6
+        call com1
+        call com2
+        call spot
+        call com3
+        call fight_scene
+        call end
 
     #End game
     return

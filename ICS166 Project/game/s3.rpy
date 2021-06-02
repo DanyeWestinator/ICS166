@@ -1,13 +1,7 @@
 
-define z = Character("Zeus")
-define f = Character("Farmer")
 define t1 = Character("Random Teen")
 
-
-# The game starts here.
-
 label s3:
-
 
     scene mall
     "Jack and Zeus are at the Mall, which also servers
@@ -43,8 +37,7 @@ label s3:
     show teen1 normal at topright
     t1 "OMG I'd be so powerless without my followers!!!"
 
-    z "Powerless without her followers? Farmer, please don't tell me she is some sort of..."
-    z "\"Modern God\"..."
+    z "Powerless without her followers? Farmer, please don't tell this is what passes as a god in this time period"
 
     show farmer normal at truecenter
     hide teen1
