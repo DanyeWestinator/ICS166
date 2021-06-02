@@ -51,7 +51,7 @@ label fight_scene:
     z "Was it Kronos again?"
     
     show f_temp at pos_right
-    f "We need to get away from here fast!"
+    j "We need to get away from here fast!"
 
     z "I don\'t think we can."
     z "That thing will catch up quickly."
