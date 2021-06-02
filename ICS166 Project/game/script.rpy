@@ -37,18 +37,19 @@ label start:
     # Keep any sub scenes you descide to create out of the main so it is clean
 
     call s1
-    if not e_end:
-        call s2
-        call s3
-        call s4
-        call s5
-        call s6
-        call com1
-        call com2
-        call spot
-        call com3
-        call fight_scene
-        call end
+    if e_end:
+        return
+    call s2
+    call s3
+    call s4
+    call s5
+    call s6
+    call com1
+    call com2
+    call spot
+    call com3
+    call fight_scene
+    call end
 
     #End game
     return

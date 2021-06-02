@@ -14,13 +14,11 @@ label s2:
     j "Mi casa es Zeus casa."
     show z_temp at pos_left
     z "This home is most charming for a mortal. And a pleasant temperature. It was frightfully cold outside, even for me."
-    j "Oh, yeah, that's just the thermostat."
-    j "I'd offer you the spare bedroom, but it's still full of boxes from the move."
+    j "Oh, yeah, that's just the thermostat. I'd offer you the spare bedroom, but it's still full of boxes from the move."
     j "Yeah, it's been three years, but I still haven't gotten around to buying a spare bed for the room."
     z "Speaking of years, I would not be surprised if Kronos worked some temporal trickery when he hit me."
-    z "Tell me, farmer, how many years have passed since the Athenian victory at Marathon?"
-    z "A century? Two?"
-    z "The technology seems to have advanced greatly, has it truly been three centuries?"
+    z "Tell me, farmer, how many years have passed since the Athenian victory at Marathon?
+    A century? Two? The technology seems to have advanced greatly, has it truly been three centuries?"
     menu:
         j "Wait, how long has it actually been since Ancient Greece again?"
 
@@ -33,33 +31,32 @@ label s2:
 
         "2500 years?":
             z "Oh, by the stomach lining of Kronos, that's further than I thought."
-
+        "3500 years?":
+            z "Minotaur's Muscles! Oh, how Hera will complain when I get home."
 
         "5000 years?":
             z "Now that is just simply not possible."
             j "Hmm, I think you're right."
             z "It couldn't be a tenth that far."
-    j "Well, I'm pretty sure the Greeks were right before Jesus,"
-    j "And that was 2,000 years ago."
+    j "Well, I'm pretty sure the Greeks were right before Jesus, And that was 2,000 years ago."
     z "This Jesus fellow must be important if you remember when he lived so clearly."
-    j "People wrote a book about the things he and his dad, the \"One True God\", said."
-    j "His book club has been making world affairs about them for most of history since."
+    j "People wrote a book about the things he and his dad, the \"One True God\", said.
+    His book club has been making world affairs about them for most of history since."
     "*pulls out phone*"
     j "According to Google, 2331 years to be exact."
     jump discovers_phone
     label discovers_phone:
         z "Another fabulous device, I take it?"
-        j "Oh this? This is called a phone. If you think Jesus's followers have a grip on society,"
-        j "You should see our dependence on these little doohickies."
+        j "Oh this? This is called a phone. If you think Jesus's followers have a grip on society,
+        You should see our dependence on these little doohickies."
         z "What does it do? It appears to be glowing."
-        j "Well, it's really everything a modern American needs at the touch of a finger at all times."
-        j "They even stuck a flashlight in these things."
+        j "Well, it's really everything a modern American needs at the touch of a finger at all times. They even stuck a flashlight in these things."
         z "A flash light?"
         j "Like a torch, minus the fire."
         j "It also has access to all of humanity's collective knowledge at the touch of a button, and can instantly communicate with any human anywhere on earth."
         z "You must all be well informed, then."
-        j "HA! As if!"
-        j "We mainly use it to look at pictures of cats and to be rude to strangers anonymously."
+        j "HA! As if!
+        \nWe mainly use it to look at pictures of cats and to be rude to strangers anonymously."
         j "You'll love your trip in the twenty-first century."
         z "This trip will be a temporary, and hopefully short, one."
         j "I was rather hoping that were the case. I don't have time for a Greek god at the moment."

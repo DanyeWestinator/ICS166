@@ -22,10 +22,13 @@
 
             jump helps
         "Don't investigate":
-            "You decide to drive away and not worry about it."
-            j "It probably wasn't that important."
-            "And with that, the farmer continued on with his peaceful and rather uneventful life,"
-            "Never knowing what he missed out on."
+            scene dark_road
+            "You drive away, worry about the explosion gnawing at your insides."
+            "As the dirt road stretches out before you, the matter fades quickly from your mind."
+            scene farm_back
+            "You arrive home, the prospect of Kraft Mac-n-cheese and CSI: Moon reruns are the only thing planned for tonight."
+            "As the remote slips from your hand as sleep grips you, the explosion is driven fully from your mind,
+                to be replaced with thoughts of a growing mortgage and increasingly unprofitable soy farming."
             $ e_end = True
             return
 
@@ -42,10 +45,9 @@
         menu:
 
             "Sir, do you need any help?":
-                u "No, actually, dirt pits are quiet comfortable."
-                u "Though if you don't mind terribly, I would like to leave this particular one."
-                u "I'd get myself out, but my limbs don't seem to want to move properly just yet."
-                u "That was a hell of a landing I just made."
+                u "No, actually, dirt pits are quiet comfortable.
+                    Though if you don't mind terribly, I would like to leave this particular one."
+                u "I'd get myself out, but my limbs don't seem to want to move properly just yet. That was a hell of a landing I just made."
             "Oh good god, are you still alive????":
                 u "Technically, yes,"
                 u "Though I likely took a pretty severe beating in the crash. \nNone of this looks familiar."
@@ -73,16 +75,13 @@
                 z "Is that near Sparta?"
                 j "Oh, only a few thousand miles away"
 
-        j "My name's Johnathan Deir, but you can call me Jack."
-        j "Seems a mite rude for me to know what you claim your name to be, but not for you to know mine"
-        j "...You're not {i}actually{/i} Zeus right?"
-        j "That has to be a bit!"
+        j "My name's Johnathan Deir, but you can call me Jack.
+            Seems a mite rude for me to know what you claim your name to be, but not for you to know mine"
+        j "...You're not {i}actually{/i} Zeus right? That has to be a bit!"
         z "Big beard, white robe, able to withstand meteoric impacts, who else did you think I was?"
         j "To be frank, I just assumed homeless."
-        z "I am not lacking a home!"
-        z "*scoffs* HA!\nImpudent Mortal"
-        z "I have a home, it's at the top of a very tall mountain called Olympus."
-        z "I'm sure even you have heard of it."
+        z "I am not lacking a home! \n*scoffs* HA!\n\nImpudent Mortal"
+        z "I have a home, it's at the top of a very tall mountain called Olympus. I'm sure even you have heard of it."
         menu:
             "Well, that's roughly halfway around the world.":
                 j "And the nearest airport is about eighty miles away."
@@ -95,15 +94,15 @@
             "Oh, you really think you're Zeus, don't you?":
                 z "By Pan's horn shavings, yes!"
                 j "You haven't seen any men in white coats, have you?"
-                z "No, the last person I saw was Kronos; a legion of monsters surrounding him."
-                z "Artemis and I cut a path through the hoarde, even our powers unable to threaten those numbers."
-                z "He knocked her aside, and froze her in a flash of golden light."
-                z "I battled him thunderbolt to scythe, until he swept my legs from under me."
-                z "There was a flash of light, and the next thing I knew, I was hundreds of feet in the sky, and I fell into that crater."
-                j "Well, that doesn't entirely rule out government labs doing weird experiments again."
-                j "But I haven't the slightest idea how to even begin helping you there."
-                j "I have a bachelors in farm management, this is a bit above my pay grade."
-                j "But the least I can offer you is a couch to crash on, and a ride to the Greyhound station in the morning."
+                z "No, the last person I saw was Kronos; a legion of monsters surrounding him.
+                Artemis and I cut a path through the hoarde, even our powers unable to threaten those numbers.
+                He knocked her aside, and froze her in a flash of golden light."
+                z "I battled him thunderbolt to scythe, until he swept my legs from under me.
+                There was a flash of light, and the next thing I knew, I was hundreds of feet in the sky, and I fell into that crater."
+                j "Well, that doesn't entirely rule out government labs doing weird experiments again.
+                But I haven't the slightest idea how to even begin helping you there."
+                j "I have a bachelors in farm management, this is a bit above my pay grade.
+                But the least I can offer you is a couch to crash on, and a ride to the Greyhound station in the morning."
                 j "Er, {i}your majesty{/i}."
                 z "Lord Zeus, if you please."
                 jump offer_couch

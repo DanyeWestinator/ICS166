@@ -11,15 +11,13 @@ label s6:
 
     z "Are you asking me to drop to the level of a human and throw away my pride as a god?"
 
-    j "I'm pretty sure you are no different from a human at this point."
-    j "Plus I think that you would have more of a shot with this than with your original plan."
+    j "I'm pretty sure you are no different from a human at this point.
+    Plus I think that you would have more of a shot with this than with your original plan."
     j "Which last time I checked, didn't exist."
 
-    z "*sigh* Fine then. Let's go with your idea."
-    z "What should we do first?"
+    z "*sigh* Fine then. Let's go with your idea. What should we do first?"
 
-    j "Well I was thinking of how we should go about this."
-    j "There are a lot of social media platforms to start out on."
+    j "Well I was thinking of how we should go about this. There are a lot of social media platforms to start out on."
 
     z "Social media? Platform?"
     z "Ah, like the Theatre of Dionysus."
