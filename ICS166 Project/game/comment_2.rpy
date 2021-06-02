@@ -72,6 +72,6 @@
 label com2_2:
     p "yahooOo00oo: wats the secret"
     p "jChillin: P cool how did u do it?"
-    f "Knock on wood, but we'll have you home in no time."
+    j "Knock on wood, but we'll have you home in no time."
 
     return

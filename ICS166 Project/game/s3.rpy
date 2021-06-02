@@ -21,7 +21,7 @@ label s3:
 
 
     show farmer normal at truecenter
-    f "What the..."
+    j "What the..."
     hide farmer normal
 
 
@@ -41,8 +41,8 @@ label s3:
 
     show farmer normal at truecenter
     hide teen1
-    f "I don't think so."
-    f "But I think there are hundreds of people that eagerly await her next post.
+    j "I don't think so."
+    j "But I think there are hundreds of people that eagerly await her next post.
         Like cats begging for a feeding."
     show teen1 normal at topright
     t1 "Hundreds? Try 24,037!"
@@ -75,4 +75,4 @@ label s3:
     t1 "Gotta baloodle!\n\n*leaves*"
     hide teen1
     show farmer normal at pos_right
-    f "What a strange child."
+    j "What a strange child."
