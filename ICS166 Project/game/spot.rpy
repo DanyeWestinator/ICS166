@@ -9,7 +9,7 @@ label spot:
     #Show Farmer
     show f_temp at pos_right
 
-    f "Here, let me go pick up that shovel I needed real quick and then we can grab the frozen stuff on our way out."
+    j "Here, let me go pick up that shovel I needed real quick and then we can grab the frozen stuff on our way out."
     z "These markets really do have everything these days."
 
     hide z_temp
@@ -31,9 +31,9 @@ label spot:
     #Show Farmer
     show f_temp at pos_right
 
-    f "Hey do you hear that?"
-    f "It sounds like you've got some fans over there."
-    f "Maybe you should go over there and say hi to them. I am sure they would appreciate it."
+    j "Hey do you hear that?"
+    j "It sounds like you've got some fans over there."
+    j "Maybe you should go over there and say hi to them. I am sure they would appreciate it."
 
     menu:
         "Approach the teens?"
@@ -50,6 +50,6 @@ label spot:
             f "I don't disagree, it sounds like a lot of work, but it would be nice gesture."
 
 
-    f "We should be getting back home soon before it gets too dark out."
+    j "We should be getting back home soon before it gets too dark out."
 
     return
