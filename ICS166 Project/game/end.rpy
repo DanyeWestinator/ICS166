@@ -25,12 +25,12 @@
     j "I must say, things will be a lot quieter once you return."
     z "I'm sure things will be. It is rare opportunity for any mortal to come face-to-face with Olympus' finest."
     z "I doubt there is a more exciting experience."
-    j "Welp, glad to know its all downhill from here."
-    j "But hey, atleast I have an interesting story that no one will believe."
+    j "Welp, glad to know it's all downhill from here."
+    j "But hey, at least I have an interesting story to tell. That no one will believe."
 
     "Zeus starts approaching the crater."
 
-    z "Also I have no need for this contraption any longer."
+    z "I have no need for this contraption any longer."
     "Zeus holds out the phone he has been using."
     j "Nah, you keep it. I don't need another one and I doubt we will be able to find that girl again."
     j "Keep it as some relic from the future or something."
@@ -42,6 +42,6 @@
     z "Behold the true powers of a god"
     z "And Jack, thank you."
     "With a flash of blinding light, Zeus disappears, returning back to his proper time."
-    j "Farwell Zeus. Farwell."
+    j "Farewell Zeus. Farewell."
 
     return

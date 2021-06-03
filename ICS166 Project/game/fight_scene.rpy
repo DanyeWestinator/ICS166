@@ -24,16 +24,16 @@ label fight_scene:
     hide z_temp
 
     "*CRASH*"
-    
+
     "As Jack and Zeus were returning home after a long day,
      a mysterious object collided into them, sending their
      car barreling."
-    
+
     ""
 
     show z_temp at pos_left
     z "Ugh"
-    z "What in the underworld was that?"
+    z "What in the name of Hades' clammy beer belly was that?"
     z "Hey Farmer, are you dead?"
 
     show f_temp at pos_right
@@ -49,7 +49,7 @@ label fight_scene:
     show z_temp at pos_left
     z "What is a beast from ancient times doing here?"
     z "Was it Kronos again?"
-    
+
     show f_temp at pos_right
     j "We need to get away from here fast!"
 
@@ -61,7 +61,7 @@ label fight_scene:
     j "With what? You barely have any power and I can barely fight."
 
     z "We can take it. Do you have any metal objects in the car?"
-    
+
     j "I have a shovel."
 
     z "Good, go get it."
