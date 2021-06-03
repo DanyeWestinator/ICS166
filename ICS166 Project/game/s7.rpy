@@ -23,7 +23,7 @@ label s7:
     z "What do you mean it is missing something? A picture this realistic of the King of Olympus must surely be more than enough to impress people."
     j "To people these days, it just looks like any old picture of a dude out in a field."
     z "I am not just any old dude, that is preposterous. You mortals lack..."
-    j "Here catch."
+    j "Here, catch."
     "Jack throws the hat he is wearing at Zeus."
     j "Try putting that on. It is one of my hand-made leather hats. Hopefully this can give this post something extra."
     z "I don't see what difference this hat will make but I will follow your lead, Farmer."

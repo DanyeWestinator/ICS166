@@ -16,16 +16,16 @@
     image crater = "crater.jpg"
     scene crater
     #Show Zeus
-    show z_2 at topleft
+    show z_temp at pos_left
     #Show Farmer
-    show f2 at topright
+    show f_temp at pos_right
 
     j "So guess the time has finally come."
     j "I must say, things will be a lot quieter once you return."
     z "I'm sure things will be. It is rare opportunity for any mortal to come face-to-face with Olympus' finest."
     z "I doubt there is a more exciting experience."
     j "Welp, glad to know it's all downhill from here."
-    j "But hey, at least I have an interesting story to tell. That no one will believe."
+    j "But hey, at least I have an interesting story to tell. One that no one will believe."
 
     "Zeus starts approaching the crater."
 
@@ -41,6 +41,7 @@
     j "Now that you can finally get back to Titan Fightin\'"
     z "Behold the true powers of a God"
     z "And Jack, thank you."
+    hide z_temp
     "With a flash of blinding light, Zeus disappears, returning back to his proper time."
     j "Farewell Zeus. Farewell."
 

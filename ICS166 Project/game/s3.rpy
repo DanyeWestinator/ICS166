@@ -4,14 +4,14 @@ define t1 = Character("Random Teen")
 label s3:
 
     scene mall
-    "Jack and Zeus are at the Mall, which also servers
+    "The next morning, Jack and Zeus head to the Mall, which also servers
     as the town's Greyhound station. They have two hours to kill before the bus, and Zeus would need a disguise for his journey to Fargo."
     "Zeus offloaded enough gold bangles and trinkets at the Pawn-N-Ammo-N-Bait-Eds to pay for first class air travel to Larissa,
     as well as possibly destabilize the local economy for years to come."
 
 
 
-    show cowboy at cow_pos
+    show z_temp at pos_left
     z "Who is this peasant who stands before me?"
     show teen1 normal at topright
     "*snap*"
@@ -72,10 +72,10 @@ label s3:
     t1 "You just have to interact with your followers! Make them feel like it's a real person on the other end of the comments!
     \nAnd if you have to call someone a bitch muffin to do that, oh well!"
     scene mall
-    show cowboy at cow_pos
+    show z_temp at pos_left
     show teen1 normal at topright
     z "You have been most helpful, mortal girl"
     t1 "Gotta baloodle!\n\n*leaves*"
     hide teen1
-    show farmer normal at pos_right
+    show farmer normal at truecenter
     j "What a strange child."

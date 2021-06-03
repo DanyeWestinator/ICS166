@@ -1,9 +1,9 @@
 label s2:
     scene dark_road
 
-    z "This chariot is a wonderful invention. Hephaestus would be proud."
     $ z_2_pos = Position(xpos=0.2, ypos=0.75)
     show z_2 at z_2_pos
+    z "This chariot is a wonderful invention. Hephaestus would be proud."
     z "You must be a wealthy man indeed to possess such a treasure."
     $f_drive_pos = Position(xpos=0.8, ypos=0.8)
     show f_drive at f_drive_pos

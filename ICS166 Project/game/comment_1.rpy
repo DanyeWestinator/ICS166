@@ -4,18 +4,20 @@
     scene farm_back
 
     #Show Zeus
-    $z_left = Position(xpos=0.2, ypos=0.7)
-    show z_2 at z_left
-    image phone2 = "phone_com1.png"
-    show phone2 at truecenter
+    scene farm_back
+    show z_temp at pos_left
 
-    $f_right = Position(xpos=0.8, ypos=0.75)
-    show f2 at f_right
+    #Show Farmer
+    show f_temp at pos_right
+    hide phone2
 
     "Sometime the next morning."
     j "Hey come over here. It looks like a few people actually commented on the post."
     z "Where are these people? I do not see any other mortals around."
     j "No, on the phone. Come over here and look."
+
+    image phone2 = "phone_com1.png"
+    show phone2 at truecenter
 
     p "Steve77: nice"
 

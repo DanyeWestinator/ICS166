@@ -11,6 +11,7 @@
     show explosion at center
     pause 2
 
+    scene crater
     "*distant explosion*"
     show f_temp at pos_right
     j "What the hell was that?"

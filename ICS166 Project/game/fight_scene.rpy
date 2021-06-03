@@ -45,8 +45,9 @@ label fight_scene:
     hide f_temp
     hide z_temp
 
-    "Standing before them was the legendary beast Chimera."
     show chimera at truecenter
+    "Standing before them was the legendary beast Chimera."
+
     show z_temp at pos_left
     z "What is a beast from ancient times doing here?"
     z "Was it Kronos again?"
@@ -63,7 +64,7 @@ label fight_scene:
 
     z "We can take it. Do you have any metal objects in the car?"
 
-    j "I have a shovel."
+    j "I have that shovel I just bought."
 
     z "Good, go get it."
 
@@ -114,7 +115,7 @@ label fight_scene:
     show z_temp at pos_left
 
     z "Wait for it."
-    z "Wait for it."
+    z "Wait for it..."
     z "Now!"
     z "HAAAA!!"
 

@@ -6,9 +6,10 @@ label s4:
     # Show Farmer
     show f_temp at pos_left
 
+    "Outside the mall"
     j "Can you explain to me how your powers work."
     j "I can kind of understand that you are Zeus, but how did you go from Greek god to a strange toga-wearing man on the side of the road?"
-    
+
     show z_temp at pos_right
 
     z "Well, during the age of the Greek gods, people believed that the gods controlled all of nature."
@@ -60,5 +61,3 @@ label s4:
     j "..."
 
     return
-
-

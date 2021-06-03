@@ -5,12 +5,12 @@
     #Show Farmer
     show f_temp at pos_right
 
-    "*that night*"
+    "*Sometime the next morning.*"
     j "Wow, this social media plan has done much better than I expected."
-    z "Well of course, did you really doubt that I, Zeus himself, couldn't win over the population. I have done it before; I can do it again"
+    z "Well of course, did you really doubt that I, Zeus himself, couldn't win over the population. I have done it before; I can do it again."
     j "You still got a way to go though. We need to think of something that will really grab people if this is going to work."
     z "Worry not, Farmer. With more of my powers back, I have a time-tested plan for just the occasion."
-    j "The name's still Jack but, I really want to know how you have possibly tested getting social media follower back in ancient Greece."
+    j "I really want to know how you have possibly tested getting social media follower back in ancient Greece."
     z "See now, Farmer, there is no better way to make the mortals respect the king of Olympus than with lightning itself."
     j "Please don't tell me you are going to electrocute someone."
     z "Of course not, at least not yet anyways."
@@ -67,6 +67,12 @@
     hide z_hit
     show z_temp at truecenter
     z "Now, that's what I've been talking about when I mention power."
+    j "Wow, I was not expecting that."
+    z "How could you still lack faith in my abilities to gain followers."
+    j "No, I mean the lightning striking you thing."
+    z "O, yes of course. It is just a sign of my reclaimed power."
+    j "Does that mean you are finally fit to return."
+    z "Yes, but there is one last preperation."
 
 
 
