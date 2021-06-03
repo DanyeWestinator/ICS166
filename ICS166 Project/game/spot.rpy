@@ -47,7 +47,23 @@ label spot:
             "Zeus walks over to the two teens."
             z "Greetings mortals"
 
-            #Zeus talks to them a bit, prob shows a bit of his power and feels stronger since he has more worship.
+            mt1 "What's up, dude? That trick you did was really cool."
+            z "How many times must I tell you feeble people that I am not a being of trickery?"
+            mt1 "You're weird. Also, there's no way that wasn't edited or something."
+            mt2 "Yeah, it's not like, you're the FOR REAL Zeus or anything. You outta check yourself in somewhere."
+            z "Silence, fools"
+            "Zeus pokes them each, causing a static electric charge to emit from their clothing, surprising them"
+            mt1 "Nice try, you've got one of those shocker toys or something."
+            mt2 "I don't know, this guy seems like something is off. I'm beginning to believe we should give this guy some more respect."
+            "With the shift of mood, from Zeus's palms emerge a small electric ball, which he holds like a crystal ball"
+            z "Is this enough for you to believe, puny human?"
+            mt1 "I don't understand.."
+            "A crowd starts to gather and people are in awe. As more people gather, their phones come out."
+            j "Hey! Follow him on InstaBlab! He has a giveaway coming up next week!"
+            "The ball grows more and more until Zeus has to restrain himself, pull it back and diminish it into nothingness. Some people's hair is standing up in the crowd."
+            z "Whew, that was more than even I expected. Let's check the Blab"
+            z "Wow, these humans are easy to impress."
+            "Screams of adoration come out from the crowd as Zeus pushes them away to get out of the mall."
 
         "No":
             z "Why would I do that? There is no need for a god to interact with all of his followers."
