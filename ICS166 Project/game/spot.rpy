@@ -11,8 +11,8 @@ label spot:
     "Later that day during a trip to the store for some food."
     j "Here, let me go pick up that shovel I needed real quick and then we can grab the frozen stuff on our way out."
     z "These markets really do have everything in such a small space these days."
-    j "Ya they make picking up stuff you need pretty convenient."
-    z "The agora of Greece spanded large parts of the cities but now everything is just steps away."
+    j "Yep, they make picking up stuff you need pretty convenient."
+    z "The agora of Greece spanned large parts of the cities but now everything is just steps away."
     z "Tell me farmer, how does one shop produce such a large quantity of goods."
     j "They don't actually make all this stuff, they just buy stuff from a bunch of other places."
 
@@ -50,11 +50,11 @@ label spot:
             #Zeus talks to them a bit, prob shows a bit of his power and feels stronger since he has more worship.
 
         "No":
-            z "Why would that? There is no need for a god to interact with all of his followers."
+            z "Why would I do that? There is no need for a god to interact with all of his followers."
             z "Do you have any idea how busy I would be if I greeted every mortal that worshipped me?"
-            j "I don't disagree, it sounds like a lot of work, but it would be nice gesture."
+            j "I don't disagree, but that teenager was right. You have to make people feel like they matter."
             z "You have much to learn about being a god. You need to reserve your appearances for the right moments. They are more impactful that way."
-            j "But will that not make it more difficult to get followers if they never see you."
+            j "How can you ever gain followers if they never see you?"
             z "I have been doing this for centuries so trust me farmer, there are benefits to being elusive."
             j "I guess if that is what works."
 
