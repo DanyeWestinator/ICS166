@@ -50,8 +50,8 @@ label start:
     call com1
     call com2
     call spot
-    call com3
     call fight_scene
+    call com3
     call end
 
     #End game
