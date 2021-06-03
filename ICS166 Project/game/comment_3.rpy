@@ -57,6 +57,16 @@
     p "itBSmackin: DAMN this boi be looking like Zeus up in here"
     p "abfg157: bring the thunder"
     p "lel49m8: prefect timeing on dat one"
+    "Suddenly, the skies darken again. These clouds are darker and more full than earlier."
+    "The smell of static is thick in the air, when suddenly, a bolt of lightning arcs down and collides with Zeus."
+    hide f_temp
+    hide z_temp
+    show z_hit at truecenter
+    "Far from being killed, this seems to energize him. As the bolt hit him, he dropped to one knee, but then rose again, his eyes flashing with power.
+    Lightning fills his fingers, and every fiber of his being screams \"This is a God!\""
+    hide z_hit
+    show z_temp at truecenter
+    z "Now, that's what I've been talking about when I mention power."
 
 
 

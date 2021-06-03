@@ -19,6 +19,7 @@ image farm_back = "farm_back.jpg"
 image explosion = "explosion.png"
 image mall = "mall.jpg"
 image bolt_strike = "bolt_strike.jpg"
+image z_hit = "lightning_hit.jpg"
 
 #init vars
 init:

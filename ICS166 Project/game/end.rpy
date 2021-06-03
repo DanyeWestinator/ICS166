@@ -7,12 +7,11 @@
 
     "On the truck ride back to location of Zeus' appearance."
     j "Are you sure we really needed to drive back down here for you to return."
-    z "Of course farmer, where else be suiting for such an occasion."
-    j "I don't know anywhere that doesn't require a few hour drive."
+    z "Of course farmer, where else could possibly be suitable for such a glorious occasion?"
+    j "I don't know, anywhere that doesn't require an hour on unpaved dirt."
     "..."
     j "I am surprised that this plan worked so well."
-    z "What can I say, I am a god for a reason."
-    z "Gaining the devotion of mortals is part of the job."
+    z "What can I say, I am a god for a reason. Gaining the devotion of mortals is part of the job."
     "Eventually they arrive at the small crater that marks the spot."
 
     scene bg temp
@@ -39,6 +38,7 @@
     "Zeus walks down to the bottom."
 
     z "Now, to finally make my return."
+    j "Now that you can finally get back to Titan Fightin\'"
     z "Behold the true powers of a god"
     z "And Jack, thank you."
     "With a flash of blinding light, Zeus disappears, returning back to his proper time."
