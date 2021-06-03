@@ -1,4 +1,5 @@
 define c = Character("Chimera")
+image chimera = "chimera.png"
 
 label fight_scene:
 
@@ -45,7 +46,7 @@ label fight_scene:
     hide z_temp
 
     "Standing before them was the legendary beast Chimera."
-
+    show chimera at truecenter
     show z_temp at pos_left
     z "What is a beast from ancient times doing here?"
     z "Was it Kronos again?"
