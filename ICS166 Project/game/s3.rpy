@@ -11,7 +11,7 @@ label s3:
 
 
 
-    show cowboy at pos_left
+    show cowboy at cow_pos
     z "Who is this peasant who stands before me?"
     show teen1 normal at topright
     "*snap*"
@@ -58,7 +58,8 @@ label s3:
     t1 "Yeah I've got lots of them. I'll tell you a secret - half my followers are all these other phones I have."
     t1 "PLEASE DON'T TELL ANYONE!"
     z "I don't care. Just tell me how to acquire these followers. What's \"InstaBlab\"?"
-    show phone_mall at truecenter
+    #show phone_mall at truecenter
+    $post("mall_com", "mall_girl")
     t1 "Well, look at this post I just made while we were talking!\n
         Well, one of the posts. I post a lot, and you talk slow"
     t1 "{i}*blows bubble gum bubble*{/i}"
@@ -70,7 +71,9 @@ label s3:
         Yeah, I think so. Post!"
     t1 "You just have to interact with your followers! Make them feel like it's a real person on the other end of the comments!
     \nAnd if you have to call someone a bitch muffin to do that, oh well!"
-    hide phone_mall
+    scene mall
+    show cowboy at cow_pos
+    show teen1 normal at topright
     z "You have been most helpful, mortal girl"
     t1 "Gotta baloodle!\n\n*leaves*"
     hide teen1

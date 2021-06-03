@@ -11,6 +11,7 @@ image f_drive = "farmer_driving.jpg"
 image z_2 = "Zeus normal.png"
 image f2 = "farmer normal.png"
 image phone = im.Scale("phone.png", 900,1050)
+image cowboy = "cowboy.jpg"
 
 image bg_temp = "back_temp.jpg"
 image dark_road = "dark_road.jpg"
@@ -25,6 +26,7 @@ init:
     $ pos_left = Position(xpos=0.2, ypos=0.9)
     $ pos_right = Position(xpos=0.8, ypos=0.9)
     $ pos_center = Position(xpos=0.5, ypos=0.9)
+    $ cow_pos = Position(xpos=0.2, ypos=0.8)
     $ e_end = False
 
 # The game starts here.
