@@ -39,6 +39,7 @@ label start:
     # files called s#.rpy based on which scene you are doing
     # Keep any sub scenes you descide to create out of the main so it is clean
 
+    
     call s1
     if e_end:
         return

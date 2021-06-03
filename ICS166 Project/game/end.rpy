@@ -5,20 +5,20 @@
     #Show Farmer
     show f_temp at pos_right
 
-    "On the truck ride back to location of Zeus' appearance."
+    "Later, on the truck ride back to location of Zeus' appearance."
     j "Are you sure we really needed to drive back down here for you to return."
-    z "Of course farmer, where else could possibly be suitable for such a glorious occasion?"
+    z "Of course Farmer, where else could possibly be suitable for such a glorious occasion?"
     j "I don't know, anywhere that doesn't require an hour on unpaved dirt."
     "..."
     j "I am surprised that this plan worked so well."
     z "What can I say, I am a god for a reason. Gaining the devotion of mortals is part of the job."
     "Eventually they arrive at the small crater that marks the spot."
-
-    scene bg temp
+    image crater = "crater.jpg"
+    scene crater
     #Show Zeus
-    show z_temp at pos_left
+    show z_2 at topleft
     #Show Farmer
-    show f_temp at pos_right
+    show f2 at topright
 
     j "So guess the time has finally come."
     j "I must say, things will be a lot quieter once you return."
@@ -39,7 +39,7 @@
 
     z "Now, to finally make my return."
     j "Now that you can finally get back to Titan Fightin\'"
-    z "Behold the true powers of a god"
+    z "Behold the true powers of a God"
     z "And Jack, thank you."
     "With a flash of blinding light, Zeus disappears, returning back to his proper time."
     j "Farewell Zeus. Farewell."
